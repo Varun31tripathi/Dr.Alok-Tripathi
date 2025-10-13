@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background-color: #002868; /* Navy Blue */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.header nav {
+    text-align: center;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.header nav a:hover,
+.header nav a.active {
+    color: #bf0a30; /* Red */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e6f0ff; /* Light Blue */
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #002868;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Education Section */
+.education-section {
+    padding: 3rem 0;
+}
+
+.education-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #002868;
+    margin-bottom: 2rem;
+}
+
+.education-card {
+    background-color: #fff;
+    border-left: 5px solid #bf0a30;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    font-size: 1.4rem;
+    color: #002868;
+    margin-bottom: 0.5rem;
+}
+
+.education-card p {
+    font-size: 1rem;
+    color: #555;
+}
+.education-card4{
+    margin-bottom: NONE;
+    background-color: #fff;
+    border-left: 5px solid #bf0a30;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+.education-card4:hover {
+    transform: translateY(-5px);
+}
+.education-card4 p {
+    font-size: 1rem;
+    color: #555;
+}
+.education-card4 h3 {
+    font-size: 1.4rem;
+    color: #002868;
+    margin-bottom: 0.5rem;}
+
+/* Footer */
+.footer {
+    background-color: #002868;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
