@@ -1,7 +1,4 @@
-// -------------------------------
-// Civic Unity Website Interaction
-// Donate QR Popup Logic (Enhanced)
-// -------------------------------
+
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("qrModal");
   const openBtn = document.getElementById("donateBtn");
